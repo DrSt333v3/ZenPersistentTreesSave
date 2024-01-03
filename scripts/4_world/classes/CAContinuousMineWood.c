@@ -29,5 +29,8 @@ modded class CAContinuousMineWood : CAContinuousBase
 		// Detect soft bush being cut down
 		if (GetZenTreesConfig().BushSoft && targetObject.IsInherited(BushSoft))
 			GetZenTreesConfig().SaveTreeState(targetObject.GetPosition(), targetObject.GetHealth());
+	
+		// Manual save of config file
+		GetZenTreesConfig().Save();
 	};
 }
