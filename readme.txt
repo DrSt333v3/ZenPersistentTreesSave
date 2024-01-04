@@ -1,3 +1,5 @@
+UPDATE: I have modified this to save to the config json when a tree is cut, the origional only saved on server restart which would never trigger for servers like mine using Ping Perfect.
+
 What Is This?
 
 This small and simple mod adds persistent trees to DayZ.
